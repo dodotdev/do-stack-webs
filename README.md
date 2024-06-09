@@ -6,7 +6,9 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/henriqpohl/turborepo-shadcn-ui-tailwindcss?color=SeaGreen)
 
-![GitHub Release](https://img.shields.io/github/v/release/henriqpohl/turborepo-shadcn-ui-tailwindcss?color=darksea)Turborepo starter with Shadcn/UI & Tailwind CSS pre-configured for shared UI components powered by:
+![GitHub Release](https://img.shields.io/github/v/release/henriqpohl/turborepo-shadcn-ui-tailwindcss?color=darksea)
+
+Turborepo starter with Shadcn/UI & Tailwind CSS pre-configured for shared UI components powered by:
 
 - [Turborepo](https://turborepo.org/)
 - [Shadcn/UI](https://ui.shadcn.com/)

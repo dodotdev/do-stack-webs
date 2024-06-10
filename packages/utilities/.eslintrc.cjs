@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@library/eslint-config/nodelib"],
+  extends: ["@lib/eslint-config/nodelib"],
 };

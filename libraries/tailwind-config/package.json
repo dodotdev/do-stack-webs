@@ -1,5 +1,5 @@
 {
-  "name": "@library/tailwind-config",
+  "name": "@lib/tailwind-config",
   "version": "0.0.0",
   "private": true,
   "main": "index.js",

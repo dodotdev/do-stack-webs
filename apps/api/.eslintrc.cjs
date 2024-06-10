@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@library/eslint-config/fastify"],
+  extends: ["@lib/eslint-config/fastify"],
 };

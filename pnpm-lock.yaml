@@ -7,10 +7,10 @@ settings:
 importers:
   .:
     devDependencies:
-      "@library/eslint-config":
+      "@lib/eslint-config":
         specifier: workspace:*
         version: link:libraries/eslint-config
-      "@library/typescript-config":
+      "@lib/typescript-config":
         specifier: workspace:*
         version: link:libraries/typescript-config
       prettier:
@@ -53,13 +53,13 @@ importers:
         specifier: ^3.21.4
         version: 3.23.8
     devDependencies:
-      "@library/eslint-config":
+      "@lib/eslint-config":
         specifier: workspace:*
         version: link:../../libraries/eslint-config
       "@acme/jest-presets":
         specifier: workspace:*
         version: link:../../libraries/jest-presets
-      "@library/typescript-config":
+      "@lib/typescript-config":
         specifier: workspace:*
         version: link:../../libraries/typescript-config
       "@swc/cli":
@@ -107,7 +107,7 @@ importers:
 
   apps/webs:
     dependencies:
-      "@repo/ui":
+      "@pakg/ui":
         specifier: workspace:*
         version: link:../../packages/ui
       eslint:
@@ -123,10 +123,10 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      "@library/eslint-config":
+      "@lib/eslint-config":
         specifier: workspace:*
         version: link:../../libraries/eslint-config
-      "@library/typescript-config":
+      "@lib/typescript-config":
         specifier: workspace:*
         version: link:../../libraries/typescript-config
       "@next/eslint-plugin-next":
@@ -249,10 +249,10 @@ importers:
         specifier: ^3.23.8
         version: 3.23.8
     devDependencies:
-      "@library/eslint-config":
+      "@lib/eslint-config":
         specifier: workspace:*
         version: link:../../libraries/eslint-config
-      "@library/typescript-config":
+      "@lib/typescript-config":
         specifier: workspace:*
         version: link:../../libraries/typescript-config
       "@turbo/gen":
@@ -304,13 +304,13 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0
     devDependencies:
-      "@library/eslint-config":
+      "@lib/eslint-config":
         specifier: workspace:*
         version: link:../../libraries/eslint-config
       "@acme/jest-presets":
         specifier: workspace:*
         version: link:../../libraries/jest-presets
-      "@library/typescript-config":
+      "@lib/typescript-config":
         specifier: workspace:*
         version: link:../../libraries/typescript-config
       "@types/jest":

@@ -12,8 +12,8 @@
     "ui:add": "pnpm --filter ui ui:add"
   },
   "devDependencies": {
-    "@library/eslint-config": "workspace:*",
-    "@library/typescript-config": "workspace:*",
+    "@lib/eslint-config": "workspace:*",
+    "@lib/typescript-config": "workspace:*",
     "prettier": "^3.3.1",
     "turbo": "latest"
   },

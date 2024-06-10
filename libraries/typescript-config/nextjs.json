@@ -11,9 +11,9 @@
     "noEmit": true,
     "paths": {
       "@/*": ["./*"],
-      "@repo/ui/*": ["../../packages/ui/src/*"],
-      "@repo/ui/components/*": ["../../packages/ui/src/components/ui/*"],
-      "@repo/ui/components/ui/*": ["../../packages/ui/src/components/ui/*"]
+      "@pakg/ui/*": ["../../packages/ui/src/*"],
+      "@pakg/ui/components/*": ["../../packages/ui/src/components/ui/*"],
+      "@pakg/ui/components/ui/*": ["../../packages/ui/src/components/ui/*"]
     }
   }
 }

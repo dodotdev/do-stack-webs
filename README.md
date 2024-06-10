@@ -51,9 +51,9 @@ This Turborepo is organised in the following manner:
 
 ### Packages Folder
 
-- `@repo/ui`: a stub React component library shared by applications inside of `apps` folder (Shadcn/UI and Tailwind CSS)
+- `@pakg/ui`: a stub React component library shared by applications inside of `apps` folder (Shadcn/UI and Tailwind CSS)
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@library/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@lib/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

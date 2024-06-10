@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Button } from "@repo/ui/components/button";
-import { CounterButton, Link } from "@repo/ui/index";
+import { Button } from "@pakg/ui/components/button";
+import { CounterButton, Link } from "@pakg/ui/index";
 
 export default function Page(): JSX.Element {
   return (

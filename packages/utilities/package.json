@@ -22,9 +22,9 @@
     "typeid-js": "^0.3.0"
   },
   "devDependencies": {
-    "@library/eslint-config": "workspace:*",
+    "@lib/eslint-config": "workspace:*",
     "@acme/jest-presets": "workspace:*",
-    "@library/typescript-config": "workspace:*",
+    "@lib/typescript-config": "workspace:*",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.10",
     "eslint": "^8.47.0",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@library/typescript-config/base.json",
+  "extends": "@lib/typescript-config/base.json",
   "compilerOptions": {
     "lib": ["ES2022"],
     "module": "CommonJS",

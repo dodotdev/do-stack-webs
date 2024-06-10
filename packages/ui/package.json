@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "clean": "rm -rf .turbo node_modules",
     "lint": "eslint . --max-warnings 0",
     "ui:add": "pnpm dlx shadcn-ui@latest add"
   },

@@ -4,8 +4,8 @@
     //"outDir": "dist"
     "baseUrl": ".",
     "paths": {
-      "@repo/ui/*": ["./src/*"],
-      "@repo/ui/components/ui*": ["./src/components/ui/*"]
+      "@ui/*": ["./src/*"],
+      "@ui/components/ui*": ["./src/components/ui/*"]
     }
   },
   "include": ["."],

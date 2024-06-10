@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --port 3001",
     "build": "next build",
+    "clean": "rm -rf .next node_modules",
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
   },

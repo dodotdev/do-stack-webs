@@ -6,8 +6,17 @@ Turborepo starter with Shadcn/UI & Tailwind CSS pre-configured for shared UI com
 - [Shadcn/UI](https://ui.shadcn.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [PNPM](https://pnpm.io/)
+- [Fastify](https://fastify.dev)
 
 > \[!NOTE\] This example uses `pnpm` as package manager.
+
+## Credit where it is due:
+
+We leaned heavily on three prior works.
+
+- Vercel's: [kitchen-sink](https://vercel.com/templates/remix/turborepo-kitchensink)
+- Aris Ripandi: [Fuelstack](https://github.com/riipandi/fuelstack)
+- Aris Ripandi (ris): [turborepo-shadcn-ui/-tailwindcss/](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss)
 
 ## Using this example
 
@@ -26,14 +35,25 @@ pnpm install
 
 ## What's inside?
 
-This Turborepo includes the following packages/apps:
+This Turborepo is organised in the following manner:
 
-### Apps and Packages
+### Apps Folder
 
 - `webs`: a [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by applications inside of `apps` folder (🚀 powered by **Shadcn/UI** and **Tailwind CSS**)
+- api: a [fastify](https://fastify.dev) api setup
+
+### Libraries Folder
+
+- `eslint-config` - eslint configs for all other situations. See folder structure
+- `jest-presets` - Coming soon.
+- `tailwind-config` - asdfasdf
+- `tsconfig` -
+
+### Packages Folder
+
+- `@repo/ui`: a stub React component library shared by applications inside of `apps` folder (Shadcn/UI and Tailwind CSS)
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@acme/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

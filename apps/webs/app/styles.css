@@ -13,7 +13,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
-  line-height: 1.5;
   tab-size: 4;
 }
 
@@ -22,7 +21,6 @@ body {
 }
 
 .container {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

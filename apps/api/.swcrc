@@ -1,0 +1,27 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "minify": false,
+    "jsc": {
+        "minify": {
+            "compress": {
+                "unused": true
+            },
+            "mangle": true
+        },
+        "parser": {
+            "syntax": "typescript",
+            "tsx": false,
+            "decorators": true,
+            "dynamicImport": true
+        },
+        "externalHelpers": false,
+        "target": "es2022",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "baseUrl": "."
+    },
+    "module": {
+        "type": "commonjs"
+    }
+}

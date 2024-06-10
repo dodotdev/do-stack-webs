@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "ui:add": "pnpm dlx shadcn-ui@latest add"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@acme/eslint-config": "workspace:*",
+    "@acme/typescript-config": "workspace:*",
     "@turbo/gen": "^2.0.3",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.14.2",
@@ -21,11 +22,14 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.6.0",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.390.0",
+    "react-hook-form": "^7.51.5",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   }
 }

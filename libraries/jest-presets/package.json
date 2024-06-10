@@ -1,0 +1,12 @@
+{
+    "name": "@acme/jest-presets",
+    "version": "0.0.0",
+    "private": true,
+    "files": [
+        "jsdom/**",
+        "node/**"
+    ],
+    "devDependencies": {
+        "ts-jest": "^29.1.1"
+    }
+}

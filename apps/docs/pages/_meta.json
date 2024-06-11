@@ -1,0 +1,14 @@
+{
+  "index": "Introduction",
+  "nextra-files": "Original Nextra Files",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/dodotdev",
+    "newWindow": true
+  }
+}

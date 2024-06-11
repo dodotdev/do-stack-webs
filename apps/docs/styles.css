@@ -1,0 +1,28 @@
+:root {
+  --brand-primary-base: #edffa5;
+  --brand-primary-opacity: #edffa580;
+
+  --brand-secondary-low: #463ecf;
+  --brand-secondary-base: #ac9cff;
+  --brand-secondary-opacity: #ac9cff80;
+
+  --neutral-dark-base: #151515;
+  --neutral-dark-medium: #252525;
+  --neutral-dark-high: #343434;
+  --neutral-dark-opacity: #ffffff16;
+
+  --neutral-light-base: #999999;
+  --neutral-light-medium: #c2c2c2;
+  --neutral-light-high: #f5f5f5;
+  --neutral-light-opacity: #00000016;
+}
+
+html[class~="light"] article pre {
+  background-color: var(--neutral-light-high) !important;
+  border: none;
+}
+
+html[class~="dark"] article pre {
+  background-color: var(--neutral-dark-medium) !important;
+  border: none;
+}

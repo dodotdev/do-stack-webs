@@ -18,7 +18,7 @@ export function CounterButton(): JSX.Element {
       <p style={{ margin: "0 0 1.5rem 0" }}>
         This component is from{" "}
         <code className="px-2 py-1 rounded-md bg-gray-300 bg-opacity-40">
-          @pakg/ui
+          @pkg/ui
         </code>
       </p>
       <div>

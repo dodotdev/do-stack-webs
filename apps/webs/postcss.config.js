@@ -1,1 +1,1 @@
-module.exports = require("@pakg/ui/postcss.config");
+module.exports = require("@pkg/ui/postcss.config");

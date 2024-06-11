@@ -42,16 +42,16 @@ This Turborepo is organised in the following manner:
 - `webs`: a [Next.js](https://nextjs.org/) app
 - api: a [fastify](https://fastify.dev) api setup
 
-### Libraries Folder
+### Libraries Folder - @lib/
 
 - `eslint-config` - eslint configs for all other situations. See folder structure
 - `jest-presets` - Coming soon.
-- `tailwind-config` - asdfasdf
-- `tsconfig` -
+- `tailwind-config` - tailwind setup and configs
+- `tsconfig` - typescript configs
 
-### Packages Folder
+### Packages Folder - @pkg/
 
-- `@pakg/ui`: a stub React component library shared by applications inside of `apps` folder (Shadcn/UI and Tailwind CSS)
+- `@pkg/ui`: a stub React component library shared by applications inside of `apps` folder (Shadcn/UI and Tailwind CSS)
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@lib/typescript-config`: `tsconfig.json`s used throughout the monorepo
 

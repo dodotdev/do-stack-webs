@@ -1,4 +1,4 @@
-import "@pakg/ui/styles/globals.css";
+import "@pkg/ui/styles/globals.css";
 import "./styles.css";
 
 import type { Metadata } from "next";

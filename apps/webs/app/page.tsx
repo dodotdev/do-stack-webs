@@ -1,8 +1,11 @@
 import Image from "next/image";
-import { Button } from "@pakg/ui/components/button";
-import { CounterButton, Link } from "@pakg/ui/index";
+import { Button } from "@pkg/ui/components/button";
+import { CounterButton, Link } from "@pkg/ui/index";
+
+import { log } from "@pkg/logger";
 
 export default function Page(): JSX.Element {
+  log("Starting Webs.....");
   return (
     <main className="flex flex-col items-center justify-between min-h-screen p-24">
       <div className="flex flex-col items-center justify-between min-h-screen p-24 w-screen h-screen top-[0] absolute gradient blur-3xl opacity-30"></div>

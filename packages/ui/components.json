@@ -10,7 +10,7 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "@pakg/ui/components",
-    "utils": "@pakg/ui/lib/utils"
+    "components": "@pkg/ui/components",
+    "utils": "@pkg/ui/lib/utils"
   }
 }

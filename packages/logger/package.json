@@ -1,0 +1,23 @@
+{
+  "name": "@pkg/logger",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@lib/eslint-config": "workspace:*",
+    "@lib/typescript-config": "workspace:*",
+    "@types/node": "^20.14.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}

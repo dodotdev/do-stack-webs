@@ -19,6 +19,10 @@ We leaned heavily on three prior works.
 - Aris Ripandi: [Fuelstack](https://github.com/riipandi/fuelstack)
 - Aris Ripandi (ris): [turborepo-shadcn-ui/-tailwindcss/](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss)
 
+## Caution
+
+This is a work in progress. The project is not yet ready for production use. It is still in the early stages of development and is subject to change. But is a great starting point for your own projects.
+
 ## Using this example
 
 Clone the repository:

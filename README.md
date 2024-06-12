@@ -7,7 +7,7 @@ Turborepo starter with Shadcn/UI & Tailwind CSS pre-configured for shared UI com
 - [Tailwind CSS](https://tailwindcss.com/)
 - [PNPM](https://pnpm.io/)
 - [Fastify](https://fastify.dev)
-- [Nextra](https://https://nextra.site/)
+- [Nextra](https://nextra.site/)
 
 > \[!NOTE\] This example uses `pnpm` as package manager.
 
@@ -41,7 +41,8 @@ This Turborepo is organised in the following manner:
 ### Apps Folder
 
 - `webs`: a [Next.js](https://nextjs.org/) app
-- api: a [fastify](https://fastify.dev) api setup
+- `api`: a [fastify](https://fastify.dev) api setup
+- `docs`: a [Nextra & Next.js](https://nextra.site/) api setup
 
 ### Libraries Folder - @lib/
 

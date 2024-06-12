@@ -7,6 +7,7 @@ Turborepo starter with Shadcn/UI & Tailwind CSS pre-configured for shared UI com
 - [Tailwind CSS](https://tailwindcss.com/)
 - [PNPM](https://pnpm.io/)
 - [Fastify](https://fastify.dev)
+- [Nextra](https://https://nextra.site/)
 
 > \[!NOTE\] This example uses `pnpm` as package manager.
 
